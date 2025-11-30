@@ -1,0 +1,92 @@
+[
+  {
+    "Id": "11111111-1111-1111-1111-111111111111",
+    "Enunciado": "Em um circuito elétrico, aplicando a Lei das Correntes de Kirchhoff (LCK), é correto afirmar que:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "A soma das tensões em um nó é sempre zero.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "A soma algébrica das correntes que entram em um nó é igual à soma das correntes que saem desse nó.",
+        "Correta": true
+      },
+      {
+        "Letra": "C",
+        "Texto": "A corrente em qualquer malha é sempre nula.",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "A soma das potências em um nó é sempre negativa.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "A tensão em um nó é sempre igual a zero.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "A LCK (Lei das Correntes de Kirchhoff) afirma que a soma algébrica das correntes que chegam a um nó é igual à soma das correntes que saem dele, garantindo conservação de carga.",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2021,
+      "CodigoProva": "Engenharia Elétrica",
+      "AreaOficial": "Engenharia Elétrica"
+    },
+    "Area": "Circuitos Elétricos",
+    "Assuntos": [ "Circuitos Elétricos", "Lei de Kirchhoff", "Lei das Correntes de Kirchhoff" ],
+    "CursosRelacionados": [ "Engenharia Elétrica", "Engenharia de Computação" ],
+    "Tags": [ "LCK", "nó", "correntes", "conservação de carga" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "22222222-2222-2222-2222-222222222222",
+    "Enunciado": "Em relação à Lei das Tensões de Kirchhoff (LTK), assinale a alternativa correta.",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "A soma algébrica das tensões em qualquer malha fechada é igual a zero.",
+        "Correta": true
+      },
+      {
+        "Letra": "B",
+        "Texto": "A soma das correntes em qualquer malha é igual a zero.",
+        "Correta": false
+      },
+      {
+        "Letra": "C",
+        "Texto": "A tensão em cada resistor de uma malha é sempre igual.",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "A LTK vale apenas para circuitos puramente resistivos.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "A LTK não pode ser aplicada em malhas com fontes de tensão.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "A LTK (Lei das Tensões de Kirchhoff) estabelece que a soma algébrica das tensões em qualquer malha fechada é zero, refletindo a conservação de energia no circuito.",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2019,
+      "CodigoProva": "Engenharia de Computação",
+      "AreaOficial": "Engenharia de Computação"
+    },
+    "Area": "Circuitos Elétricos",
+    "Assuntos": [ "Circuitos Elétricos", "Lei de Kirchhoff", "Lei das Tensões de Kirchhoff" ],
+    "CursosRelacionados": [ "Engenharia de Computação", "Engenharia Elétrica" ],
+    "Tags": [ "LTK", "malha", "tensões", "circuitos" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  }
+]
