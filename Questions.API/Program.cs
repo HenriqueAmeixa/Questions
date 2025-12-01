@@ -93,6 +93,60 @@ app.MapGet("/questoes/random", (
 
     return Results.Ok(sorteada);
 });
+
+// GET /questoes/random/area/{area}
+app.MapGet("/questoes/random/area/{area}", (
+    QuestoesRepository repo,
+    string area) =>
+{
+    if (string.IsNullOrWhiteSpace(area))
+        return Results.BadRequest("A área é obrigatória.");
+
+    // Filtra apenas pela área
+    var lista = repo.Filter(area: area, assunto: null, curso: null, tag: null).ToList();
+
+    if (lista.Count == 0)
+        return Results.NotFound($"Nenhuma questão encontrada na área '{area}'.");
+
+    var random = new Random();
+    var index = random.Next(lista.Count);
+    var sorteada = lista[index];
+
+    return Results.Ok(sorteada);
+});
+
+// GET /questoes/area/{area} - retorna todas as questões de uma área específica
+app.MapGet("/questoes/area/{area}", (QuestoesRepository repo, string area) =>
+{
+    if (string.IsNullOrWhiteSpace(area))
+        return Results.BadRequest("A área é obrigatória.");
+
+    var questoes = repo
+        .Filter(area: area, assunto: null, curso: null, tag: null)
+        .ToList();
+
+    if (questoes.Count == 0)
+        return Results.NotFound($"Nenhuma questão encontrada na área '{area}'.");
+
+    return Results.Ok(questoes);
+});
+
+
+// GET /areas - retorna todas as áreas cadastradas (sem duplicados)
+app.MapGet("/areas", (QuestoesRepository repo) =>
+{
+    var areas = repo
+        .GetAll()
+        .Select(q => q.Area)
+        .Where(a => !string.IsNullOrWhiteSpace(a))
+        .Distinct(StringComparer.OrdinalIgnoreCase)
+        .OrderBy(a => a)
+        .ToList();
+
+    return Results.Ok(areas);
+});
+
+
 // Configure the HTTP request pipeline.
 
 app.UseSwagger();

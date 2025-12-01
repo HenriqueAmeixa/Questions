@@ -1,66 +1,66 @@
 [
   {
     "Id": "11111111-1111-1111-1111-111111111111",
-    "Enunciado": "Em um circuito el�trico, aplicando a Lei das Correntes de Kirchhoff (LCK), � correto afirmar que:",
+    "Enunciado": "Em um circuito elétrico, aplicando a Lei das Correntes de Kirchhoff (LCK), é correto afirmar que:",
     "Alternativas": [
       {
         "Letra": "A",
-        "Texto": "A soma das tens�es em um n� � sempre zero.",
+        "Texto": "A soma das tensões em um nó é sempre zero.",
         "Correta": false
       },
       {
         "Letra": "B",
-        "Texto": "A soma alg�brica das correntes que entram em um n� � igual � soma das correntes que saem desse n�.",
+        "Texto": "A soma algébrica das correntes que entram em um nó é igual à soma das correntes que saem desse nó.",
         "Correta": true
       },
       {
         "Letra": "C",
-        "Texto": "A corrente em qualquer malha � sempre nula.",
+        "Texto": "A corrente em qualquer malha é sempre nula.",
         "Correta": false
       },
       {
         "Letra": "D",
-        "Texto": "A soma das pot�ncias em um n� � sempre negativa.",
+        "Texto": "A soma das potências em um nó é sempre negativa.",
         "Correta": false
       },
       {
         "Letra": "E",
-        "Texto": "A tens�o em um n� � sempre igual a zero.",
+        "Texto": "A tensão em um nó é sempre igual a zero.",
         "Correta": false
       }
     ],
-    "ComentarioResolucao": "A LCK (Lei das Correntes de Kirchhoff) afirma que a soma alg�brica das correntes que chegam a um n� � igual � soma das correntes que saem dele, garantindo conserva��o de carga.",
+    "ComentarioResolucao": "A LCK (Lei das Correntes de Kirchhoff) afirma que a soma algébrica das correntes que chegam a um nó é igual à soma das correntes que saem dele, garantindo conservação de carga.",
     "Fonte": {
       "Tipo": 2,
       "Nome": "ENADE",
       "Ano": 2021,
-      "CodigoProva": "Engenharia El�trica",
-      "AreaOficial": "Engenharia El�trica"
+      "CodigoProva": "Engenharia Elétrica",
+      "AreaOficial": "Engenharia Elétrica"
     },
-    "Area": "Circuitos El�tricos",
-    "Assuntos": [ "Circuitos El�tricos", "Lei de Kirchhoff", "Lei das Correntes de Kirchhoff" ],
-    "CursosRelacionados": [ "Engenharia El�trica", "Engenharia de Computa��o" ],
-    "Tags": [ "LCK", "n�", "correntes", "conserva��o de carga" ],
+    "Area": "Circuitos Elétricos",
+    "Assuntos": [ "Circuitos Elétricos", "Lei de Kirchhoff", "Lei das Correntes de Kirchhoff" ],
+    "CursosRelacionados": [ "Engenharia Elétrica", "Engenharia de Computação" ],
+    "Tags": [ "LCK", "nó", "correntes", "conservação de carga" ],
     "Dificuldade": 2,
     "UrlFonteOficial": null
   },
   {
     "Id": "22222222-2222-2222-2222-222222222222",
-    "Enunciado": "Em rela��o � Lei das Tens�es de Kirchhoff (LTK), assinale a alternativa correta.",
+    "Enunciado": "Em relação à Lei das Tensões de Kirchhoff (LTK), assinale a alternativa correta.",
     "Alternativas": [
       {
         "Letra": "A",
-        "Texto": "A soma alg�brica das tens�es em qualquer malha fechada � igual a zero.",
+        "Texto": "A soma algébrica das tensões em qualquer malha fechada é igual a zero.",
         "Correta": true
       },
       {
         "Letra": "B",
-        "Texto": "A soma das correntes em qualquer malha � igual a zero.",
+        "Texto": "A soma das correntes em qualquer malha é igual a zero.",
         "Correta": false
       },
       {
         "Letra": "C",
-        "Texto": "A tens�o em cada resistor de uma malha � sempre igual.",
+        "Texto": "A tensão em cada resistor de uma malha é sempre igual.",
         "Correta": false
       },
       {
@@ -70,22 +70,1063 @@
       },
       {
         "Letra": "E",
-        "Texto": "A LTK n�o pode ser aplicada em malhas com fontes de tens�o.",
+        "Texto": "A LTK não pode ser aplicada em malhas com fontes de tensão.",
         "Correta": false
       }
     ],
-    "ComentarioResolucao": "A LTK (Lei das Tens�es de Kirchhoff) estabelece que a soma alg�brica das tens�es em qualquer malha fechada � zero, refletindo a conserva��o de energia no circuito.",
+    "ComentarioResolucao": "A LTK (Lei das Tensões de Kirchhoff) estabelece que a soma algébrica das tensões em qualquer malha fechada é zero, refletindo a conservação de energia no circuito.",
     "Fonte": {
       "Tipo": 2,
       "Nome": "ENADE",
       "Ano": 2019,
-      "CodigoProva": "Engenharia de Computa��o",
-      "AreaOficial": "Engenharia de Computa��o"
+      "CodigoProva": "Engenharia de Computação",
+      "AreaOficial": "Engenharia de Computação"
     },
-    "Area": "Circuitos El�tricos",
-    "Assuntos": [ "Circuitos El�tricos", "Lei de Kirchhoff", "Lei das Tens�es de Kirchhoff" ],
-    "CursosRelacionados": [ "Engenharia de Computa��o", "Engenharia El�trica" ],
-    "Tags": [ "LTK", "malha", "tens�es", "circuitos" ],
+    "Area": "Circuitos Elétricos",
+    "Assuntos": [ "Circuitos Elétricos", "Lei de Kirchhoff", "Lei das Tensões de Kirchhoff" ],
+    "CursosRelacionados": [ "Engenharia de Computação", "Engenharia Elétrica" ],
+    "Tags": [ "LTK", "malha", "tensões", "circuitos" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "33333333-3333-3333-3333-333333333333",
+    "Enunciado": "Considere um nó de um circuito em regime estacionário, onde chegam três correntes: I1 = 2 A, I2 = 3 A e sai uma corrente I3. De acordo com a Lei das Correntes de Kirchhoff (LCK), qual o valor de I3?",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "1 A saindo do nó",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "5 A saindo do nó",
+        "Correta": true
+      },
+      {
+        "Letra": "C",
+        "Texto": "5 A entrando no nó",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "2 A saindo do nó",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "3 A entrando no nó",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "Pela LCK, a soma das correntes que entram é igual à soma das que saem. Se I1 e I2 entram e apenas I3 sai, então I3 = I1 + I2 = 2 A + 3 A = 5 A saindo do nó.",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2017,
+      "CodigoProva": "Engenharia Elétrica",
+      "AreaOficial": "Engenharia Elétrica"
+    },
+    "Area": "Circuitos Elétricos",
+    "Assuntos": [ "Circuitos Elétricos", "Lei de Kirchhoff", "Lei das Correntes de Kirchhoff" ],
+    "CursosRelacionados": [ "Engenharia Elétrica", "Engenharia de Computação" ],
+    "Tags": [ "LCK", "nó", "corrente", "regime estacionário" ],
+    "Dificuldade": 1,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "44444444-4444-4444-4444-444444444444",
+    "Enunciado": "Em uma malha simples contendo uma fonte de tensão contínua ideal de 10 V e dois resistores em série, R1 = 2 kΩ e R2 = 3 kΩ, qual equação representa corretamente a aplicação da Lei das Tensões de Kirchhoff (LTK) na malha, considerando o sentido de varredura no sentido horário?",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "10 − 2kΩ·I − 3kΩ·I = 0",
+        "Correta": true
+      },
+      {
+        "Letra": "B",
+        "Texto": "−10 + 2kΩ·I − 3kΩ·I = 0",
+        "Correta": false
+      },
+      {
+        "Letra": "C",
+        "Texto": "10 + 2kΩ·I + 3kΩ·I = 0",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "−10 − 2kΩ·I + 3kΩ·I = 0",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "2kΩ·I + 3kΩ·I = 0",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "Pela LTK, a soma algébrica das tensões na malha é zero. Considerando a fonte como +10 V e as quedas de tensão nos resistores no sentido da corrente: 10 − R1·I − R2·I = 0.",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2018,
+      "CodigoProva": "Engenharia de Computação",
+      "AreaOficial": "Engenharia de Computação"
+    },
+    "Area": "Circuitos Elétricos",
+    "Assuntos": [ "Circuitos Elétricos", "Lei de Kirchhoff", "Lei das Tensões de Kirchhoff", "Circuitos de malha" ],
+    "CursosRelacionados": [ "Engenharia de Computação", "Engenharia Elétrica" ],
+    "Tags": [ "LTK", "malha", "resistor em série", "tensões" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "55555555-5555-5555-5555-555555555555",
+    "Enunciado": "Sobre a aplicação das Leis de Kirchhoff em circuitos elétricos planares, analise as afirmações:\nI. O número máximo de equações independentes de malha que podem ser escritas é igual ao número de malhas independentes.\nII. A análise nodal utiliza a Lei das Correntes de Kirchhoff, enquanto a análise de malhas utiliza a Lei das Tensões de Kirchhoff.\nIII. As Leis de Kirchhoff deixam de ser válidas em circuitos com elementos resistivos e fontes independentes.\nAssinale a alternativa correta.",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Apenas I é verdadeira.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Apenas II é verdadeira.",
+        "Correta": false
+      },
+      {
+        "Letra": "C",
+        "Texto": "Apenas I e II são verdadeiras.",
+        "Correta": true
+      },
+      {
+        "Letra": "D",
+        "Texto": "Apenas I e III são verdadeiras.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "I, II e III são verdadeiras.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "A afirmação I está correta: o número de equações independentes de malha está associado ao número de malhas independentes do circuito. A afirmação II também está correta: análise nodal usa LCK; análise de malhas usa LTK. A afirmação III é falsa, pois as Leis de Kirchhoff continuam válidas em circuitos com resistores e fontes independentes.",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2020,
+      "CodigoProva": "Engenharia Elétrica",
+      "AreaOficial": "Engenharia Elétrica"
+    },
+    "Area": "Circuitos Elétricos",
+    "Assuntos": [ "Circuitos Elétricos", "Lei de Kirchhoff", "Análise nodal", "Análise de malhas" ],
+    "CursosRelacionados": [ "Engenharia Elétrica", "Engenharia de Computação" ],
+    "Tags": [ "LCK", "LTK", "análise nodal", "análise de malhas" ],
+    "Dificuldade": 3,
+    "UrlFonteOficial": null
+  },
+
+
+  {
+    "Id": "66666666-6666-6666-6666-666666666666",
+    "Enunciado": "Em um circuito com dois nós, N1 e N2, conectados por três resistores em paralelo e alimentados por uma fonte de corrente ideal, qual método de análise é mais diretamente associado à aplicação da Lei das Correntes de Kirchhoff (LCK)?",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Análise de malhas.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Análise nodal.",
+        "Correta": true
+      },
+      {
+        "Letra": "C",
+        "Texto": "Teorema de Thevenin.",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "Teorema de Norton.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Transformada de Laplace.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "A análise nodal é baseada diretamente na LCK, escrevendo equações de corrente em cada nó para encontrar tensões nodais.",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2016,
+      "CodigoProva": "Engenharia Elétrica",
+      "AreaOficial": "Engenharia Elétrica"
+    },
+    "Area": "Circuitos Elétricos",
+    "Assuntos": [ "Circuitos Elétricos", "Análise nodal", "Lei das Correntes de Kirchhoff" ],
+    "CursosRelacionados": [ "Engenharia Elétrica", "Engenharia de Computação" ],
+    "Tags": [ "LCK", "análise nodal", "circuito paralelo" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "77777777-7777-7777-7777-777777777777",
+    "Enunciado": "Em uma malha contendo uma fonte de tensão contínua e três resistores em série, a corrente medida é maior do que a prevista pelo cálculo usando a Lei de Ohm e a LTK. Uma possível causa para essa discrepância é:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Os resistores estão em paralelo, não em série.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "A resistência equivalente é maior do que a considerada no cálculo.",
+        "Correta": false
+      },
+      {
+        "Letra": "C",
+        "Texto": "A resistência equivalente é menor do que a considerada no cálculo.",
+        "Correta": true
+      },
+      {
+        "Letra": "D",
+        "Texto": "A fonte de tensão está em curto-circuito.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "As Leis de Kirchhoff não se aplicam a circuitos práticos.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "Se a corrente real é maior que a prevista, a resistência total deve ser menor do que a usada no cálculo, por exemplo devido a tolerância dos resistores ou conexões em paralelo não consideradas.",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2015,
+      "CodigoProva": "Engenharia de Computação",
+      "AreaOficial": "Engenharia de Computação"
+    },
+    "Area": "Circuitos Elétricos",
+    "Assuntos": [ "Circuitos Elétricos", "Lei das Tensões de Kirchhoff", "Lei de Ohm" ],
+    "CursosRelacionados": [ "Engenharia de Computação", "Engenharia Elétrica" ],
+    "Tags": [ "LTK", "corrente", "resistência equivalente" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "88888888-8888-8888-8888-888888888888",
+    "Enunciado": "Considere um circuito com duas malhas acopladas compartilhando um resistor. A respeito da formulação das equações de malha usando a LTK, é correto afirmar que:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "O resistor compartilhado deve ser ignorado na escrita das equações de malha.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "A queda de tensão no resistor compartilhado é considerada com o mesmo sinal em ambas as malhas.",
+        "Correta": false
+      },
+      {
+        "Letra": "C",
+        "Texto": "A queda de tensão no resistor compartilhado aparece com sinais opostos nas duas equações de malha.",
+        "Correta": true
+      },
+      {
+        "Letra": "D",
+        "Texto": "A LTK não pode ser aplicada quando há resistores compartilhados entre malhas.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "A corrente no resistor compartilhado é sempre nula.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "Como o resistor compartilhado pertence a duas malhas, as correntes de malha têm sentidos opostos nesse elemento, resultando em tensões com sinais opostos nas equações de cada malha.",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2014,
+      "CodigoProva": "Engenharia Elétrica",
+      "AreaOficial": "Engenharia Elétrica"
+    },
+    "Area": "Circuitos Elétricos",
+    "Assuntos": [ "Circuitos Elétricos", "Lei das Tensões de Kirchhoff", "Malhas acopladas" ],
+    "CursosRelacionados": [ "Engenharia Elétrica", "Engenharia de Computação" ],
+    "Tags": [ "LTK", "malhas acopladas", "resistor compartilhado" ],
+    "Dificuldade": 3,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "99999999-9999-9999-9999-999999999999",
+    "Enunciado": "Um estudante modela um circuito resistivo usando análise nodal e obtém três equações lineares independentes para três nós de referência. Sobre esse sistema de equações, é correto afirmar que:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Sempre haverá infinitas soluções para as tensões nodais.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "O sistema é determinado e, em condições ideais, possui solução única.",
+        "Correta": true
+      },
+      {
+        "Letra": "C",
+        "Texto": "A LCK garante que não existam soluções para o sistema.",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "A LTK é utilizada exclusivamente para gerar equações nodais.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "As tensões nodais não possuem relação com as fontes do circuito.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "Em um circuito resistivo bem definido, a análise nodal gera um sistema linear determinado em que, em condições ideais, existe uma solução única para as tensões nodais.",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2013,
+      "CodigoProva": "Engenharia de Computação",
+      "AreaOficial": "Engenharia de Computação"
+    },
+    "Area": "Circuitos Elétricos",
+    "Assuntos": [ "Circuitos Elétricos", "Análise nodal", "Sistema linear" ],
+    "CursosRelacionados": [ "Engenharia de Computação", "Engenharia Elétrica" ],
+    "Tags": [ "análise nodal", "equações lineares", "tensões nodais" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "Enunciado": "Em um circuito DC, a potência fornecida por uma fonte ideal de tensão é igual à soma das potências dissipadas em todos os resistores. Essa afirmação está diretamente relacionada a:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Lei de Ohm.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Lei das Correntes de Kirchhoff (LCK).",
+        "Correta": false
+      },
+      {
+        "Letra": "C",
+        "Texto": "Lei das Tensões de Kirchhoff (LTK) combinada com conservação de energia.",
+        "Correta": true
+      },
+      {
+        "Letra": "D",
+        "Texto": "Teorema de Superposição.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Teorema de Máxima Transferência de Potência.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "A conservação de energia em circuitos, expressa pela igualdade entre a potência fornecida pelas fontes e a potência dissipada nos elementos passivos, está ligada à aplicação da LTK em malhas e ao balanço de energia.",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2012,
+      "CodigoProva": "Engenharia Elétrica",
+      "AreaOficial": "Engenharia Elétrica"
+    },
+    "Area": "Circuitos Elétricos",
+    "Assuntos": [ "Circuitos Elétricos", "Lei das Tensões de Kirchhoff", "Conservação de energia" ],
+    "CursosRelacionados": [ "Engenharia Elétrica", "Engenharia de Computação" ],
+    "Tags": [ "energia", "potência", "LTK" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+
+
+  {
+    "Id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "Enunciado": "Em um retificador de meia onda com diodo ideal e carga resistiva, alimentado por uma fonte senoidal, qual alternativa descreve corretamente a forma de onda da tensão sobre a carga?",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Uma senoide completa, positiva e negativa.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Uma senoide apenas negativa.",
+        "Correta": false
+      },
+      {
+        "Letra": "C",
+        "Texto": "Pulsos senoidais positivos durante os semiciclos positivos e tensão zero nos semiciclos negativos.",
+        "Correta": true
+      },
+      {
+        "Letra": "D",
+        "Texto": "Uma onda quadrada com valor médio nulo.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Uma onda triangular com valor médio positivo.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "No retificador de meia onda ideal, o diodo conduz apenas nos semiciclos positivos da entrada, resultando em pulsos positivos na carga e tensão aproximadamente zero nos semiciclos negativos.",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2018,
+      "CodigoProva": "Engenharia Elétrica",
+      "AreaOficial": "Engenharia Elétrica"
+    },
+    "Area": "Eletrônica Analógica",
+    "Assuntos": [ "Eletrônica Analógica", "Diodos", "Retificadores" ],
+    "CursosRelacionados": [ "Engenharia Elétrica", "Engenharia de Computação" ],
+    "Tags": [ "diodo", "retificador", "meia onda" ],
+    "Dificuldade": 1,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+    "Enunciado": "Em um amplificador operacional ideal configurado como amplificador inversor, com resistor de entrada Rin = 10 kΩ e resistor de realimentação Rf = 100 kΩ, qual é o ganho de tensão e o sinal da saída em relação à entrada?",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Ganho de +10 e saída em fase com a entrada.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Ganho de −10 e saída em oposição de fase à entrada.",
+        "Correta": true
+      },
+      {
+        "Letra": "C",
+        "Texto": "Ganho de +0,1 e saída em fase com a entrada.",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "Ganho de −0,1 e saída em oposição de fase à entrada.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Ganho de unidade e saída em fase com a entrada.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "No amplificador inversor ideal, o ganho é dado por −Rf/Rin. Assim, −100 kΩ / 10 kΩ = −10, indicando módulo 10 e inversão de fase (180°).",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2017,
+      "CodigoProva": "Engenharia de Computação",
+      "AreaOficial": "Engenharia de Computação"
+    },
+    "Area": "Eletrônica Analógica",
+    "Assuntos": [ "Eletrônica Analógica", "Amplificador operacional", "Amplificador inversor" ],
+    "CursosRelacionados": [ "Engenharia de Computação", "Engenharia Elétrica" ],
+    "Tags": [ "opamp", "ganho", "inversor" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "dddddddd-dddd-dddd-dddd-dddddddddddd",
+    "Enunciado": "Em um transistor bipolar de junção (BJT) NPN operando na região ativa, qual relação entre correntes é correta, considerando as convenções usuais de sentido de corrente?",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "IC ≈ IB + IE.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "IE ≈ IC − IB.",
+        "Correta": false
+      },
+      {
+        "Letra": "C",
+        "Texto": "IE ≈ IC + IB.",
+        "Correta": true
+      },
+      {
+        "Letra": "D",
+        "Texto": "IB ≈ IC + IE.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "IC ≈ IE − IB é inválida para qualquer condição.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "Na região ativa, vale a relação IE = IC + IB, pois a corrente de emissor é aproximadamente a soma das correntes de coletor e base.",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2016,
+      "CodigoProva": "Engenharia Elétrica",
+      "AreaOficial": "Engenharia Elétrica"
+    },
+    "Area": "Eletrônica Analógica",
+    "Assuntos": [ "Eletrônica Analógica", "BJT", "Região ativa" ],
+    "CursosRelacionados": [ "Engenharia Elétrica", "Engenharia de Computação" ],
+    "Tags": [ "BJT", "correntes", "transistor bipolar" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "Enunciado": "Um retificador de onda completa em ponte, seguido de um capacitor de filtro, é utilizado para alimentar uma carga resistiva. Ao aumentar o valor do capacitor, o efeito predominante é:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Aumentar a frequência da tensão de saída.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Aumentar a ondulação (ripple) da tensão de saída.",
+        "Correta": false
+      },
+      {
+        "Letra": "C",
+        "Texto": "Reduzir a ondulação (ripple) e aproximar a tensão de saída de um valor DC mais constante.",
+        "Correta": true
+      },
+      {
+        "Letra": "D",
+        "Texto": "Reduzir a tensão média de saída.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Inverter a polaridade da tensão de saída.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "Um capacitor de filtro maior armazena mais carga e mantém a tensão por mais tempo entre os picos do retificador, reduzindo o ripple e aproximando a saída de um nível DC.",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2015,
+      "CodigoProva": "Engenharia Elétrica",
+      "AreaOficial": "Engenharia Elétrica"
+    },
+    "Area": "Eletrônica Analógica",
+    "Assuntos": [ "Eletrônica Analógica", "Retificador de onda completa", "Filtro capacitivo" ],
+    "CursosRelacionados": [ "Engenharia Elétrica", "Engenharia de Computação" ],
+    "Tags": [ "retificador", "capacitor", "ripple" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+    "Enunciado": "Um amplificador com transistor BJT em configuração emissor comum apresenta um capacitor de acoplamento na entrada. A principal função desse capacitor é:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Estabilizar a corrente de coletor em DC.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Bloquear a componente DC do sinal de entrada, permitindo apenas a componente AC.",
+        "Correta": true
+      },
+      {
+        "Letra": "C",
+        "Texto": "Elevar o ganho de tensão em altas frequências.",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "Polarizar a base do transistor em uma tensão fixa.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Reduzir o ruído térmico dos resistores.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "O capacitor de acoplamento de entrada bloqueia o nível DC do estágio anterior e permite apenas a passagem do sinal AC, evitando que a polarização de base do BJT seja alterada.",
+    "Fonte": {
+      "Tipo": 2,
+      "Nome": "ENADE",
+      "Ano": 2014,
+      "CodigoProva": "Engenharia de Computação",
+      "AreaOficial": "Engenharia de Computação"
+    },
+    "Area": "Eletrônica Analógica",
+    "Assuntos": [ "Eletrônica Analógica", "Amplificador emissor comum", "Acoplamento AC" ],
+    "CursosRelacionados": [ "Engenharia de Computação", "Engenharia Elétrica" ],
+    "Tags": [ "acoplamento capacitivo", "emissor comum", "sinal AC" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+
+
+  {
+    "Id": "01010101-0101-0101-0101-010101010101",
+    "Enunciado": "Homem de 55 anos, assintomático, é avaliado em consulta de rotina. PA média em três aferições diferentes: 152/96 mmHg. Sem comorbidades prévias conhecidas. Segundo diretrizes atuais de hipertensão arterial, a conduta inicial mais adequada é:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Apenas acompanhamento anual, sem intervenções.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Iniciar mudanças no estilo de vida e tratamento farmacológico com monoterapia anti-hipertensiva.",
+        "Correta": true
+      },
+      {
+        "Letra": "C",
+        "Texto": "Solicitar apenas MAPA e aguardar resultado antes de qualquer medida.",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "Iniciar imediatamente terapia combinada com três fármacos, independentemente de risco cardiovascular.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Encaminhar diretamente para avaliação cirúrgica de simpatectomia lombar.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "Valores persistentemente ≥140/90 mmHg em adulto justificam medidas não farmacológicas associadas a tratamento medicamentoso, especialmente na faixa de 150/90 mmHg ou mais, considerando o risco cardiovascular global.",
+    "Fonte": {
+      "Tipo": 3,
+      "Nome": "ENAMED",
+      "Ano": 2022,
+      "CodigoProva": "Clínica Médica",
+      "AreaOficial": "Medicina"
+    },
+    "Area": "Medicina",
+    "Assuntos": [ "Hipertensão arterial sistêmica", "Clínica médica", "Risco cardiovascular" ],
+    "CursosRelacionados": [ "Medicina" ],
+    "Tags": [ "HAS", "hipertensão", "conduta inicial" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "02020202-0202-0202-0202-020202020202",
+    "Enunciado": "Paciente de 62 anos, tabagista pesado, com dor torácica típica há 40 minutos, sudorese e náuseas, chega ao pronto-atendimento. A medida diagnóstica inicial mais importante para confirmar suspeita de infarto agudo do miocárdio com supra de ST é:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Radiografia de tórax.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Eletrocardiograma de 12 derivações o mais rápido possível.",
+        "Correta": true
+      },
+      {
+        "Letra": "C",
+        "Texto": "Dosagem de troponina sérica após 24 horas.",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "Ecocardiograma transtorácico de rotina.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Teste ergométrico em esteira.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "Em suspeita de IAM com supra, o ECG de 12 derivações deve ser realizado em poucos minutos, pois é fundamental para confirmar o diagnóstico e indicar reperfusão precoce.",
+    "Fonte": {
+      "Tipo": 3,
+      "Nome": "ENAMED",
+      "Ano": 2021,
+      "CodigoProva": "Clínica Médica",
+      "AreaOficial": "Medicina"
+    },
+    "Area": "Medicina",
+    "Assuntos": [ "Cardiologia", "Infarto agudo do miocárdio", "Emergência" ],
+    "CursosRelacionados": [ "Medicina" ],
+    "Tags": [ "IAM", "ECG", "dor torácica" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "03030303-0303-0303-0303-030303030303",
+    "Enunciado": "Criança de 3 anos, previamente saudável, apresenta febre alta, tosse produtiva, taquipneia e estertores crepitantes em base pulmonar direita. O diagnóstico mais provável é:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Bronquiolite viral aguda.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Asma em crise.",
+        "Correta": false
+      },
+      {
+        "Letra": "C",
+        "Texto": "Pneumonia comunitária bacteriana.",
+        "Correta": true
+      },
+      {
+        "Letra": "D",
+        "Texto": "Corpo estranho em via aérea.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Crup viral.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "O quadro de febre alta, tosse produtiva, taquipneia e estertores focais sugere pneumonia comunitária bacteriana, especialmente em crianças dessa faixa etária.",
+    "Fonte": {
+      "Tipo": 3,
+      "Nome": "ENAMED",
+      "Ano": 2020,
+      "CodigoProva": "Pediatria",
+      "AreaOficial": "Medicina"
+    },
+    "Area": "Medicina",
+    "Assuntos": [ "Pediatria", "Pneumonia comunitária", "Doenças respiratórias" ],
+    "CursosRelacionados": [ "Medicina" ],
+    "Tags": [ "pneumonia", "febre", "taquipneia" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "04040404-0404-0404-0404-040404040404",
+    "Enunciado": "Gestante de 10 semanas em pré-natal de baixo risco questiona sobre suplementação. A recomendação habitual para prevenção de defeitos do tubo neural é o uso de:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Vitamina D em altas doses desde o início da gestação.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Ácido fólico iniciado preferencialmente antes da concepção e mantido no primeiro trimestre.",
+        "Correta": true
+      },
+      {
+        "Letra": "C",
+        "Texto": "Suplemento de ferro apenas após o terceiro trimestre.",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "Cálcio em alta dose desde o primeiro trimestre.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Complexo vitamínico apenas se houver anemia documentada.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "A suplementação com ácido fólico antes da concepção e nas primeiras semanas de gestação reduz significativamente o risco de defeitos do tubo neural.",
+    "Fonte": {
+      "Tipo": 3,
+      "Nome": "ENAMED",
+      "Ano": 2019,
+      "CodigoProva": "Ginecologia e Obstetrícia",
+      "AreaOficial": "Medicina"
+    },
+    "Area": "Medicina",
+    "Assuntos": [ "Obstetrícia", "Pré-natal", "Ácido fólico" ],
+    "CursosRelacionados": [ "Medicina" ],
+    "Tags": [ "gravidez", "suplementação", "tubo neural" ],
+    "Dificuldade": 1,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "05050505-0505-0505-0505-050505050505",
+    "Enunciado": "Mulher de 32 anos, previamente hígida, é atendida em pronto-socorro com quadro súbito de urticária generalizada, edema de lábios e dispneia após ingestão de alimento. PA 80/40 mmHg, FC 120 bpm. A conduta imediata mais adequada é:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Administrar anti-histamínico oral e observar em sala de espera.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Administrar corticoide oral e solicitar teste alérgico ambulatorial.",
+        "Correta": false
+      },
+      {
+        "Letra": "C",
+        "Texto": "Administrar adrenalina intramuscular em dose adequada e iniciar medidas de suporte.",
+        "Correta": true
+      },
+      {
+        "Letra": "D",
+        "Texto": "Iniciar apenas reposição volêmica vigorosa com cristaloides.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Aguardar estabilização espontânea do quadro.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "O quadro é compatível com anafilaxia. A adrenalina intramuscular é a droga de escolha e deve ser administrada prontamente, associada a suporte hemodinâmico e de via aérea.",
+    "Fonte": {
+      "Tipo": 3,
+      "Nome": "ENAMED",
+      "Ano": 2021,
+      "CodigoProva": "Emergências",
+      "AreaOficial": "Medicina"
+    },
+    "Area": "Medicina",
+    "Assuntos": [ "Emergências", "Anafilaxia", "Alergia" ],
+    "CursosRelacionados": [ "Medicina" ],
+    "Tags": [ "adrenalina", "choque anafilático", "urgência" ],
+    "Dificuldade": 3,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "06060606-0606-0606-0606-060606060606",
+    "Enunciado": "Paciente de 45 anos, com diabetes mellitus tipo 2, é acompanhado em ambulatório. Hemoglobina glicada (HbA1c) recente: 9,2%. Faz uso irregular de metformina em dose baixa. A medida mais adequada é:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Suspender todo tratamento e observar apenas com dieta.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Orientar adesão ao tratamento, otimizar a dose de metformina e reforçar mudanças no estilo de vida.",
+        "Correta": true
+      },
+      {
+        "Letra": "C",
+        "Texto": "Iniciar apenas insulina de forma imediata e suspender metformina.",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "Considerar o diabetes controlado, mantendo conduta inalterada.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Solicitar apenas exame de urina e retorno em 2 anos.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "HbA1c de 9,2% indica controle inadequado. Medidas incluem otimizar metformina (se tolerada) e reforçar adesão e estilo de vida, podendo associar outras drogas conforme risco e protocolo.",
+    "Fonte": {
+      "Tipo": 3,
+      "Nome": "ENAMED",
+      "Ano": 2022,
+      "CodigoProva": "Clínica Médica",
+      "AreaOficial": "Medicina"
+    },
+    "Area": "Medicina",
+    "Assuntos": [ "Endocrinologia", "Diabetes mellitus tipo 2", "HbA1c" ],
+    "CursosRelacionados": [ "Medicina" ],
+    "Tags": [ "diabetes", "controle glicêmico", "metformina" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "07070707-0707-0707-0707-070707070707",
+    "Enunciado": "Sobre o rastreamento do câncer do colo do útero em mulheres imunocompetentes, assinale a alternativa correta:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Deve iniciar ao menarca, com exame anual.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Deve iniciar por volta dos 25 anos, com periodicidade definida conforme protocolo após exames normais iniciais.",
+        "Correta": true
+      },
+      {
+        "Letra": "C",
+        "Texto": "Não é recomendado rastreamento em mulheres assintomáticas.",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "Deve ser feito apenas em gestantes.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "É indicado apenas após os 50 anos de idade.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "Diretrizes recomendam rastreamento em mulheres sexualmente ativas a partir de cerca de 25 anos, com periodicidade definida após exames normais consecutivos.",
+    "Fonte": {
+      "Tipo": 3,
+      "Nome": "ENAMED",
+      "Ano": 2019,
+      "CodigoProva": "Medicina Preventiva",
+      "AreaOficial": "Medicina"
+    },
+    "Area": "Medicina",
+    "Assuntos": [ "Ginecologia", "Rastreamento", "Câncer de colo uterino" ],
+    "CursosRelacionados": [ "Medicina" ],
+    "Tags": [ "papanicolau", "rastreamento", "oncologia" ],
+    "Dificuldade": 1,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "08080808-0808-0808-0808-080808080808",
+    "Enunciado": "Homem de 70 anos, acamado, internado há 10 dias, desenvolve febre, tosse com secreção purulenta e infiltrado novo em radiografia de tórax. O quadro é sugestivo de:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Pneumonia adquirida na comunidade leve.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Pneumonia hospitalar.",
+        "Correta": true
+      },
+      {
+        "Letra": "C",
+        "Texto": "Tuberculose pulmonar primária.",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "Bronquite aguda viral.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Edema agudo de pulmão cardiogênico.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "O surgimento de quadro infeccioso respiratório após 48 horas de internação, com novo infiltrado, caracteriza pneumonia hospitalar.",
+    "Fonte": {
+      "Tipo": 3,
+      "Nome": "ENAMED",
+      "Ano": 2018,
+      "CodigoProva": "Clínica Médica",
+      "AreaOficial": "Medicina"
+    },
+    "Area": "Medicina",
+    "Assuntos": [ "Pneumonia hospitalar", "Infecção hospitalar", "Doenças respiratórias" ],
+    "CursosRelacionados": [ "Medicina" ],
+    "Tags": [ "pneumonia", "infecção nosocomial", "idoso" ],
+    "Dificuldade": 2,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "09090909-0909-0909-0909-090909090909",
+    "Enunciado": "Lactente de 7 meses apresenta febre, irritabilidade e abaulamento de fontanela. Suspeita-se de meningite bacteriana aguda. A conduta inicial adequada inclui:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Aguardar resolução espontânea da febre antes de qualquer exame.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Realizar punção lombar e iniciar antibioticoterapia empírica o mais rápido possível.",
+        "Correta": true
+      },
+      {
+        "Letra": "C",
+        "Texto": "Solicitar apenas hemograma e observar em domicílio.",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "Iniciar apenas antiviral empírico.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Administrar antitérmico e reavaliar em 72 horas.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "Meningite bacteriana em lactentes é emergência; é indicada punção lombar para análise do líquor e antibioticoterapia empírica imediata.",
+    "Fonte": {
+      "Tipo": 3,
+      "Nome": "ENAMED",
+      "Ano": 2020,
+      "CodigoProva": "Pediatria",
+      "AreaOficial": "Medicina"
+    },
+    "Area": "Medicina",
+    "Assuntos": [ "Pediatria", "Meningite bacteriana", "Emergência" ],
+    "CursosRelacionados": [ "Medicina" ],
+    "Tags": [ "meningite", "lactente", "punção lombar" ],
+    "Dificuldade": 3,
+    "UrlFonteOficial": null
+  },
+  {
+    "Id": "10101010-1010-1010-1010-101010101010",
+    "Enunciado": "Paciente de 28 anos procura atendimento por humor deprimido persistente há mais de 2 meses, anedonia, insônia e ideação de inutilidade, sem sintomas psicóticos. O diagnóstico mais provável é:",
+    "Alternativas": [
+      {
+        "Letra": "A",
+        "Texto": "Transtorno de ansiedade generalizada.",
+        "Correta": false
+      },
+      {
+        "Letra": "B",
+        "Texto": "Transtorno depressivo maior em episódio atual.",
+        "Correta": true
+      },
+      {
+        "Letra": "C",
+        "Texto": "Transtorno afetivo bipolar em fase maníaca.",
+        "Correta": false
+      },
+      {
+        "Letra": "D",
+        "Texto": "Esquizofrenia paranóide.",
+        "Correta": false
+      },
+      {
+        "Letra": "E",
+        "Texto": "Transtorno de adaptação leve.",
+        "Correta": false
+      }
+    ],
+    "ComentarioResolucao": "Sintomas depressivos persistentes, com prejuízo funcional e duração superior a 2 semanas, sem características de mania ou psicose, sugerem episódio depressivo maior.",
+    "Fonte": {
+      "Tipo": 3,
+      "Nome": "ENAMED",
+      "Ano": 2019,
+      "CodigoProva": "Psiquiatria",
+      "AreaOficial": "Medicina"
+    },
+    "Area": "Medicina",
+    "Assuntos": [ "Psiquiatria", "Transtorno depressivo maior", "Saúde mental" ],
+    "CursosRelacionados": [ "Medicina" ],
+    "Tags": [ "depressão", "humor", "saúde mental" ],
     "Dificuldade": 2,
     "UrlFonteOficial": null
   }
